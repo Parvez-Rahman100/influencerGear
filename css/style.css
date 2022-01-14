@@ -1,0 +1,153 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+
+/* Navigation Bar Here  */
+.navElements{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.navMenu{
+    display: flex;
+}
+.navMenu li{
+    padding:10px 10px;
+}
+.navMenu li a{
+    color:black;
+}
+.logo{
+    font-size: 24px;
+    letter-spacing:6px ;
+    font-weight: 600;
+}
+
+
+/* Hero Section Here  */
+.hero{
+    margin: 80px 0;
+}
+.heroBoxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.influencerInfo{
+    width:50%;
+}
+.influencerInfo p{
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+.heroTitle{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.camera{
+    width: 40%;
+    background-image: url(images/Circle\ design.svg);
+}
+.camera img{
+    width:80%;
+    transition: transform 1s ease-in-out;
+}
+.camera img:hover{
+    transform: scale(1.5);
+}
+.btn{
+    padding: 10px 20px;
+    color:white;
+    background-image: linear-gradient(blue,rgb(19, 166, 214));
+    border:1px solid blueviolet;
+    border-radius: 20px;
+    transition: 0.5s ;
+}
+.btn:hover{
+    background-image:linear-gradient(rgb(19, 166, 214),blue);
+    letter-spacing: 2px;
+}
+
+
+
+
+
+/* Collection Styles Here  */
+.collections{
+    margin-bottom: 20px;
+}
+.productDetail{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+   grid-column-gap: 5%;
+    justify-items: center;
+    
+}
+.collection{
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(128, 128, 128, 0.294);
+    border: 10px solid white;
+    margin-bottom: 40px;
+}
+.collectTitle{
+   text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.producInfo h4{
+    font-size: 20px;
+}
+.productPic img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.seeMoreLink{
+    display: block;
+    text-align: right;
+    color:#E44780;
+}
+
+
+
+/* My Photography Styles Here  */
+.myName{
+    font-size: 50px;
+    text-align: center;
+    color:transparent;
+    position: relative;
+}
+.myName::after{
+    font-size: 50px;
+    text-align: center;
+    left: 0;
+    content: 'Parvez Rahman';
+    color:gray;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    animation: typing 5s linear  infinite ;
+}
