@@ -1,84 +1,42 @@
-@keyframes typing {
-    0%{
-        content: 'P';
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+        padding: 0 20px;
     }
-    4%{
-        content: 'Pa|';
+    .navElements{
+        flex-direction: column;
+        align-items: center;
     }
-    8%{
-        content: 'Par|';
+    .camera{
+        width:100%;
     }
-    12%{
-        content: 'Parv|';
+    .influencerInfo{
+        width: 94%;
     }
-    16%{
-        content: 'Parve|';
+
+    .heroBoxes{
+        flex-direction: column-reverse;
+    }    
+    .productDetail{
+        grid-template-columns: repeat(1,1fr);
     }
-    20%{
-        content: 'Parvez|';
+
+
+    .myName::after{
+        font-size: 35px;
+        white-space: nowrap;
     }
-    24%{
-        content: 'Parvez | ';
+    .photoBox{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
     }
-    28%{
-        content: 'Parvez R|';
+    .boxes{
+        width: 100%;
     }
-    32%{
-        content: 'Parvez Ra|';
-    }
-    36%{
-        content: 'Parvez Rah|';
-    }
-    40%{
-        content: 'Parvez Rahm|';
-    }
-    44%{
-        content: 'Parvez Rahma|';
-    }
-    48%{
-        content: 'Parvez Rahman|';
-    }
-    52%,
-    56%{
-        content: 'Parvez Rahma|';
-    }
-    60%{
-        content: 'Parvez Rahm|';
-    }
-    64%{
-        content: 'Parvez Rah|';
-    }
-    68%{
-        content: 'Parvez Rah|';
-    }
-    70%{
-        content: 'Parvez Ra|';
-    }
-    74%{
-        content: 'Parvez R|';
-    }
-    78%{
-        content: 'Parvez | ';
-    }
-    82%{
-        content: 'Parvez|';
-    }
-    86%{
-        content: 'Parve|';
-    }
-    90%{
-        content: 'Parv|';
-    }
-    94%{
-        content: 'Par|';
-    }
-    98%{
-        content: 'Pa|';
-    }
-    99%{
-        content: 'P|';
-    }
-    100%{
-       content:'|';
+
+
+    .explorebtn{
+        width: 40%;
     }
 }

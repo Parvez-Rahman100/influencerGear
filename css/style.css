@@ -235,3 +235,110 @@
     padding: 10px 20px;
     font-size: 32px;
 }
+.fa-facebook{
+    color:blue;
+}
+.fa-instagram{
+    color:#9F39AF;
+}
+.fa-telegram-plane{
+    color:#15AABF;
+}
+.fa-twitter{
+    color:#5DA9DD;
+}
+
+
+
+
+
+
+
+
+/* -------------
+ Animation Queries 
+ ---------------- */
+ @keyframes typing {
+    0%{
+        content: 'P';
+    }
+    4%{
+        content: 'Pa|';
+    }
+    8%{
+        content: 'Par|';
+    }
+    12%{
+        content: 'Parv|';
+    }
+    16%{
+        content: 'Parve|';
+    }
+    20%{
+        content: 'Parvez|';
+    }
+    24%{
+        content: 'Parvez | ';
+    }
+    28%{
+        content: 'Parvez R|';
+    }
+    32%{
+        content: 'Parvez Ra|';
+    }
+    36%{
+        content: 'Parvez Rah|';
+    }
+    40%{
+        content: 'Parvez Rahm|';
+    }
+    44%{
+        content: 'Parvez Rahma|';
+    }
+    48%{
+        content: 'Parvez Rahman|';
+    }
+    52%,
+    56%{
+        content: 'Parvez Rahma|';
+    }
+    60%{
+        content: 'Parvez Rahm|';
+    }
+    64%{
+        content: 'Parvez Rah|';
+    }
+    68%{
+        content: 'Parvez Rah|';
+    }
+    70%{
+        content: 'Parvez Ra|';
+    }
+    74%{
+        content: 'Parvez R|';
+    }
+    78%{
+        content: 'Parvez | ';
+    }
+    82%{
+        content: 'Parvez|';
+    }
+    86%{
+        content: 'Parve|';
+    }
+    90%{
+        content: 'Parv|';
+    }
+    94%{
+        content: 'Par|';
+    }
+    98%{
+        content: 'Pa|';
+    }
+    99%{
+        content: 'P|';
+    }
+    100%{
+       content:'|';
+    }
+}
