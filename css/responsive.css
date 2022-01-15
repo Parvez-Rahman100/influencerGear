@@ -14,14 +14,14 @@
     }
 
 
-/* Navigation Bar Styles Here  */
+/* Navigation Bar Responsive Styles Here  */
     .navElements{
         flex-direction: column;
         align-items: center;
     }
 
 
-    /* Hero Styles Here  */
+    /* Hero Responsive Styles Here  */
     .camera{
         width:100%;
     }
@@ -40,12 +40,12 @@
     }  
 
 
-/* Collection Style Here  */
+/* Collection Responsive Style Here  */
     .productDetail{
         grid-template-columns: repeat(1,1fr);
     }
 
-/* My Photography Styles Here  */
+/* My Photography Responsive Styles Here  */
     .myName::after{
         font-size: 35px;
         white-space: nowrap;
