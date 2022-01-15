@@ -80,13 +80,13 @@
 .btn{
     padding: 10px 20px;
     color:white;
-    background-image: linear-gradient(blue,rgb(19, 166, 214));
+    background-image: linear-gradient(brown,rgb(214, 16, 16));
     border:1px solid blueviolet;
     border-radius: 20px;
     transition: 0.5s ;
 }
 .btn:hover{
-    background-image:linear-gradient(rgb(19, 166, 214),blue);
+    background-image:linear-gradient(rgb(214, 16, 16),brown);
     letter-spacing: 2px;
 }
 
