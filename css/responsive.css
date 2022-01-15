@@ -2,7 +2,10 @@
 
 
 
-    /* Mobile Devices  */
+    /*--------------
+    Responsive For Mobile Devices 
+    ----------------- */
+
 @media only screen and (max-width:688px) {
    /* Utilities Styles Here  */
     .container{
@@ -18,7 +21,6 @@
     }
 
 
-
     /* Hero Styles Here  */
     .camera{
         width:100%;
@@ -26,7 +28,6 @@
     .influencerInfo{
         width: 94%;
     }
-
     .heroBoxes{
         flex-direction: column-reverse;
     } 
@@ -37,6 +38,8 @@
     .camera img:hover{
         transform: scale(1.1) rotate(160deg);
     }  
+
+
 /* Collection Style Here  */
     .productDetail{
         grid-template-columns: repeat(1,1fr);
@@ -62,11 +65,18 @@
     }
 }
 
+    /*------------
+     Responsive for Tablet  
+     -------------*/
 
 @media only screen and (min-width:689px) and  (max-width:992px){
+    /* Utilities Styles Here  */
     .container{
         padding: 0 80px;
     }
+
+
+    /* Navigation Bar Responsive Here  */
     .navElements{
         flex-direction: column;
         align-items: center;
@@ -76,9 +86,14 @@
         width: 100%;
         padding: 0 20px;
     }
+
+
+    /* Collection Responsive Here  */
     .productDetail{
         grid-template-columns: repeat(2,1fr);
     }
+
+    /* My Photography Responsive Here  */
     .photoBox{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -88,8 +103,6 @@
     .boxes{
         width: 100%;
     }
-
-
     .explorebtn{
         width: 40%;
     }
