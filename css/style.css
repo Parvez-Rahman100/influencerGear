@@ -18,7 +18,9 @@
 
 
 
-/* Navigation Bar Styles Here  */
+/* ----------
+Navigation Bar Styles Here 
+------------- */
 .navElements{
     display: flex;
     justify-content: space-between;
@@ -45,7 +47,9 @@
 }
 
 
-/* Hero Section Styles Here  */
+/*-------------
+ Hero Section Styles Here 
+ ----------------------- */
 .hero{
     margin: 70px 0;
 }
@@ -94,7 +98,9 @@
 
 
 
-/* Collection Section Styles Here  */
+/*------------------
+ Collection Section Styles Here 
+ ---------------------- */
 .collections{
     margin-bottom: 20px;
 }
@@ -141,7 +147,9 @@
 
 
 
-/* My Photography Section Styles Here  */
+/* -------------
+My Photography Section Styles Here
+--------------------  */
 .myPhotography{
     position: relative;
 }
@@ -210,7 +218,9 @@
 
 
 
-/* Footer Section Styles Here  */
+/*---------------
+ Footer Section Styles Here 
+ ------------------ */
 .foo{
     display: flex;
     flex-direction: column;
