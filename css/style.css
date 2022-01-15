@@ -200,8 +200,6 @@
     position: absolute;
     left: 0;
     right: 0;
-    
-    /* bottom: 0; */
 }
 .explorebtn:hover{
     background-image: linear-gradient(gray,rgba(0, 0, 0, 0.205));

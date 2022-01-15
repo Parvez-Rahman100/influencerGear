@@ -1,12 +1,25 @@
+    /* Responsive Devices  */
+
+
+
+    /* Mobile Devices  */
 @media only screen and (max-width:688px) {
+   /* Utilities Styles Here  */
     .container{
         width: 100%;
         padding: 0 20px;
     }
+
+
+/* Navigation Bar Styles Here  */
     .navElements{
         flex-direction: column;
         align-items: center;
     }
+
+
+
+    /* Hero Styles Here  */
     .camera{
         width:100%;
     }
@@ -16,12 +29,20 @@
 
     .heroBoxes{
         flex-direction: column-reverse;
-    }    
+    } 
+    .camera img{
+        width:60%;
+        transition: transform 1s ease-in-out;
+    } 
+    .camera img:hover{
+        transform: scale(1.1) rotate(160deg);
+    }  
+/* Collection Style Here  */
     .productDetail{
         grid-template-columns: repeat(1,1fr);
     }
 
-
+/* My Photography Styles Here  */
     .myName::after{
         font-size: 35px;
         white-space: nowrap;
@@ -30,6 +51,38 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
+    }
+    .boxes{
+        width: 100%;
+    }
+
+    .explorebtn{
+        width: 40%;
+    }
+}
+
+
+@media only screen and (min-width:689px) and  (max-width:992px){
+    .container{
+        padding: 0 80px;
+    }
+    .navElements{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navElements{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .productDetail{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .photoBox{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        grid-gap: 2% 10%;
     }
     .boxes{
         width: 100%;
